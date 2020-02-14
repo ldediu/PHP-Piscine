@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Baloon</title>
+    <style>
+        #circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: red;
+        margin-top: 400px;
+        margin-left: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div id="circle">
+    </div>
+    <script>
+
+        let circle = document.getElementById("circle");
+        let colors = ["red", "green", "blue"];
+        let diam = 200;
+        let color = 0;
+        
+        function setColor()
+        {
+            if (color < 0)
+                color = 2;
+            else if (color > 2)
+                color = 0;
+            circle.style.background = colors[color];
+        }
+
+        function setSize(){
+            if (diam < 200 || diam > 420)
+                diam = 200;
+            circle.style.width = diam + "px";
+            circle.style.height = diam + "px";
+        }
+
+        circle.addEventListener("click", function(){
+            diam += 10;
+            color++;
+            setSize();
+            setColor();
+        });
+
+        circle.addEventListener("mouseleave", function(){
+            diam -= 5;
+            color--;
+            setSize();
+            setColor();
+        });
+       
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calc</title>
+    <style>
+        input {
+            height: 25px;
+            font-size: 20px;
+            padding: 5px;
+            margin: 10px;
+        }
+        select {
+            height: 30px;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        input[type=submit] {
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            width: 135px;
+            height: 60px;
+            background-color: #45a049;
+        }
+        input[type=submit]:hover {
+            background-color: #66b46a;
+        }
+    </style>
+
+    <script>
+
+        setInterval(function(){
+            alert("Please, use me");
+        }, 30000);
+
+        function calc(){
+            var a = parseInt(document.getElementById("leftm").value);
+            var sign = document.getElementById("sign").value;
+            var b = parseInt(document.getElementById("rightm").value);
+            
+            if (a < 0 || b < 0)
+            {
+                console.log("Error :(");
+                alert("Error :(");
+                return;
+            }
+            if ((sign === "/" || sign === "%") && (b === 0)){
+                console.log("It’s over 9000!");
+                alert("It’s over 9000!");
+                return ;
+            }
+            if (sign === "+"){
+                console.log(a + b);
+                alert(a + b);
+            }        
+            if (sign === "-"){
+                console.log(a - b);
+                alert(a - b);
+            }
+            if (sign === "*"){
+                console.log(a * b);
+                alert(a * b);
+            }
+            if (sign === "/"){
+                console.log(a / b);
+                alert(a / b);
+            }
+            if (sign === "%"){
+                console.log(a % b);
+                alert(a % b);
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <div>
+        <form>
+            <input type="text" id="leftm"><br>
+            <select id="sign">
+                    <option>+</option>
+                    <option>-</option>
+                    <option>*</option>
+                    <option>/</option>
+                    <option>%</option>
+                  </select><br>
+            <input type="text" id="rightm"><br>
+            <input type="submit" onclick ="calc()" value="Try me!" id="button"><br>
+        </form>
+    </div>
+    
+   
+</body>
+</html>

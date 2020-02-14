@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Baloon</title>
+    <style>
+        #circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: red;
+        margin-top: 400px;
+        margin-left: 500px;
+        }
+    </style>
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+   <script>
+        var colors = ["red", "green", "blue"];
+        var diam = 200;
+        var i = 0;
+        var f = 0;
+        
+        $(document).ready(function () {
+            $('#circle').click(function () {
+                if (diam > 420)
+                    diam = 200;
+                else
+                    diam += 10;
+                if(f === 2)
+                    i--;
+                $('#circle').css('width', diam);
+                $('#circle').css('height', diam);
+                $('#circle').css('background-color', colors[i++]);
+                if(i > 2)
+                    i = 0;
+                f = 1;
+            })
+            $('#circle').mouseleave(function() {
+                if (diam < 200)
+                    diam = 200;
+                else
+                    diam -= 5;
+                if(f === 1)
+                    i++;
+                $('#circle').css('width', diam);
+                $('#circle').css('height', diam);
+                $('#circle').css('background-color', colors[i--]);
+                if(i < 0)
+                    i = 2;
+                f = 2
+            })
+        })
+       
+    </script>
+</head>
+<body>
+    <div id="circle"></div>
+</body>
+</html>

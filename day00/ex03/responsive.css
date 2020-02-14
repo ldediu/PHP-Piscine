@@ -1,0 +1,65 @@
+body, html {
+    opacity: 0.9;
+    height: 99%;
+    margin: 0;
+}
+.imgg {
+    text-align: center;
+    }
+.all {
+    margin: 0 auto;
+    max-height: 90%;
+}
+img {
+    width: 15vw;
+    height: 15vw; 
+    }
+table {
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+
+    }
+td {
+    width: 5.0vw;
+    padding: 0.1vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.0vw;
+    }
+.num {
+    background-color: white;
+    font-size: 1.0vw;
+    }
+.num2 {font-size: 2.0vw;}
+.hydro {background-color: yellow;}
+.red {background-color: palevioletred;}
+.brown {background-color: rosybrown;}
+.orange {background-color: orange;}
+.blue {background-color: dodgerblue;}
+.green {background-color: limegreen;}
+.yellow {background-color: blanchedalmond;}
+.violet {background-color: violet;}
+.purple {background-color: mediumpurple;}
+.lblue {background-color: skyblue;}
+.lgreen {background-color: lightgreen;}
+.nn {
+    text-align: left;
+    font-size: 1.0vw;
+    margin-bottom: 0px;
+    font-weight: normal;
+    }
+.m {
+    text-align: right;
+    font-size: 1.0vw;
+    margin-top: 0px;
+    font-weight: normal;
+    }
+.titl {font-size: 3.0vw;}
+.lantan {
+    text-align: right;
+    padding-right: 1.0vw;
+    }

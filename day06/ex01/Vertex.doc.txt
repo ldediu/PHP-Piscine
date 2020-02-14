@@ -1,0 +1,15 @@
+<- Vertex ----------------------------------------------------------------------
+The vertex class represents a point in space.
+
+An instance can be contructed from:
+x - x axis coordinate;
+y - y axis coordinate;
+z - z axis coordinate;
+w - "homogeneous coordinate", this coordinate is often worth 1.0
+    and simplifies matrix calculations;
+color - a color represented by an instance of the Color Class;
+
+function __toString() - prints info about the class.
+
+public static function doc() - shows documentation.
+---------------------------------------------------------------------- Vertex ->

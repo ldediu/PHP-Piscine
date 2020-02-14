@@ -1,0 +1,234 @@
+body {
+  width:100%;
+  margin:auto;
+  background-color: #454545;
+}
+p {
+  font-size: 1vw;
+  font-family: Verdana;
+}
+/*---------------------header-----------------------*/
+
+.top_block {
+  width: 75%;
+  height: auto;
+  margin: auto;
+  margin-top: 1%;
+  padding: 1%;
+  position: relative;
+  background-color: #909090;
+  box-shadow: 10px 10px 4px black;
+  border-radius: 10px;
+}
+#logo {
+  display: inline-block;
+  width: 35%;
+}
+#top_block_right {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  float: right;
+  width: 3%;
+}
+#loupe {
+  width: 21%;
+  margin-left: 40%;
+  position: absolute;
+}
+#reload {
+  width: 60%;
+  display: block;
+  margin-left: 35%;
+}
+#close {
+  width: 60%;
+  display: block;
+  margin-top: 210%;
+  margin-left: 35%;
+}
+/*---------------------middle-----------------------*/
+
+.container {
+    display: inline-block;
+    width: 70%;
+    height: 50%;
+    margin-left: 15%;;
+    margin-top: 2%;
+}
+
+.left_block {
+    width: 9%;
+    padding: 1%;
+    float: left;
+    background-color: #909090;
+    box-shadow: 10px 10px 4px black;
+    border-radius: 10px;    
+}
+
+.mid_block {
+    width: 70%;
+    padding: 1%;
+    float: left;
+    background-color: #909090;
+    box-shadow: 10px 10px 4px black;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.right_block {
+    width: 9%;
+    padding: 1%;
+    float: left;
+    background-color: #909090;
+    box-shadow: 10px 10px 4px black;
+    border-radius: 10px;    
+}
+
+#pict {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;  
+}
+
+#ikea {
+    position: relative;
+    width: 10%;
+    height: 15vh;
+    float: right;
+    margin-top: -25%;
+    margin-right: 56%;
+}
+
+#apple {
+    position: relative;
+    width: 17%;
+    height: 12vh;
+    float: right;
+    margin-top: -25%;
+    margin-right: 3%;
+}
+/*-----------------------left----------------------*/
+
+#arrow {
+	display: block;
+  	width: 60%;
+  	margin: auto;
+  	margin-top: 10%;
+}
+
+#hand {
+	display: block;
+  	width: 60%;
+  	margin: auto;
+  	margin-top: 10%;
+}
+
+#eye {
+	display: block;
+  	width: 60%;
+  	margin: auto;
+  	margin-top: 10%;
+}
+
+#util {
+	display: block;
+  	width: 60%;
+  	margin: auto;
+  	margin-top: 10%;
+}
+
+#chat {
+	display: block;
+  	width: 60%;
+  	margin: auto;
+  	margin-top: 10%;
+}
+/*-----------------------right----------------------*/
+
+#book {
+	display: block;
+  	width: 60%;
+  	margin: auto;
+  	margin-top: 10%;
+}
+
+#towel {
+	display: block;
+  	width: 60%;
+  	margin: auto;
+  	margin-top: 10%;
+}
+
+.bricks {
+    height: 7vh;
+    width: 95%;
+	display: block;
+    margin: auto;
+    background : url("resources/brick.jpg");
+    background-repeat: repeat;
+    margin-top: 10%;
+    margin-bottom: 105%;
+    background-size: 30%;
+}
+/*--------------------green huinea-------------------*/
+
+.green_huinea {
+    display: inline-block;
+    background-color: #83f283;
+    width: 42%;
+    height: auto;
+    z-index: 2;
+    margin-top: -5%;
+    margin-left: -5%;
+    box-shadow: 7px 7px 5px black;
+    border-radius: 8px;
+    padding: 1%;
+    padding-bottom: 6%;
+}
+
+#entrez {
+    font-size: 2vw;
+}
+
+#ordinateurs {
+    text-shadow: 2px 4px 3px red;
+}
+
+#form_text {
+    width: 65%;
+    display: inline-block;
+    margin-top: 1%;
+    font-size: 0.8vw;
+}
+
+#form_but {
+    width: 20%;
+    display: inline-block;
+    margin-top: 1%;
+    font-size: 1vw;
+}
+
+.green_huinea p {
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
