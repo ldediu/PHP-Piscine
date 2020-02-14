@@ -12,6 +12,6 @@ Day05 - SQL
 Day06 - Object-Oriented PHP 
 Day07 - Object-Oriented PHP  
 Day08 - Object-Oriented PHP  
-Day09 - JavaScript, Ajax
+Day09 - JavaScript, Ajax  
 Rush00 - 48 hours to build an e-commerce website    
 Rush01 - 48 hours to build a game 
